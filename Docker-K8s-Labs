@@ -41,20 +41,6 @@ exit
 docker ps
 docker ps -a
 
-Task 4: Port Mapping from Docker Host to container
-
-docker run -d -p 80:80 httpd
-docker ps
-docker exec -it < replace container id/name > /bin/bash
-exit
-docker ps
-docker exec -it < replace container id/name > /bin/bash
-kill 1
-docker ps -a
-docker container stop < replace container id/name >
-docker container rm < replace container id/name >
-docker image ls
-docker image rm < replace image id >
 
 Exercise 1: Docker Lifecycle 
 
